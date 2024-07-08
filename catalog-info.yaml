@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "luiz-todo-app"
+  description: "luiz-todo-app"
+  tags:
+    - java
+    - quarkus
+  annotations:
+    'github.com/project-slug': htc-demo-41/luiz-todo-app
+    'backstage.io/kubernetes-id': luiz-todo-app
+    'humanitec.com/orgId': "htc-demo-41"
+    'humanitec.com/appId': "luiz-todo-app"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/luizfao"
